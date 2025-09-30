@@ -15,7 +15,7 @@
   </header>
   <main>
     <h1>Cartelera</h1>
-    <div>
+    <div id="peliculas">
       <article class="card" data-id="m-001" data-title="La Gran Aventura" data-genre="Acción" data-year="2024">
         <img width="500px"
           src=https://m.media-amazon.com/images/S/pv-target-images/b168a2ae084d2d1c05594923d215a89f8425678540153d7036432156763b50dd.jpg
@@ -38,5 +38,9 @@
   <footer>2025</footer>
 
 </body>
-
+<script> 
+const favoritoId = new Set()
+const peliculasEl = document.querySelector("#peliculas")
+console.log(peliculasEl)
+</script>
 </html>
